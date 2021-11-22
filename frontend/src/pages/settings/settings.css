@@ -1,14 +1,13 @@
 .settings {
-  display: flex;
+  margin-top: 10rem;
 }
 
 .settingsWrapper {
-  flex: 9;
   padding: 20px;
+  margin: 35px 25% 5% 25%;
 }
 
 .settingsTitle {
-  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -16,16 +15,10 @@
 .settingsUpdateTitle {
   font-size: 30px;
   margin-bottom: 20px;
-  color: lightcoral;
+  color:cornflowerblue;
 }
 .section-1-container {
   margin: 35px 15% 5% 15%;
-}
-
-.settingsDeleteTitle {
-  color: red;
-  font-size: 12px;
-  cursor: pointer;
 }
 
 .settingsForm {

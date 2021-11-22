@@ -10,7 +10,7 @@ const path = require("path")
 app.use(express.json())
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
-mongoose.connect('mongodb://localhost/sitetravel');
+mongoose.connect('mongodb://localhost/travel');
 
 const storage = multer.diskStorage ({
     destination:(req, file, cb) => {

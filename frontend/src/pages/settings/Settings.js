@@ -6,7 +6,6 @@ import axios from "axios";
 export default function Settings() {
   const [file, setFile] = useState(null);
   const [username, setUsername] = useState("");
-  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [success, setSuccess] = useState(false);
 
@@ -19,7 +18,6 @@ export default function Settings() {
     const updatedUser = {
       userId: user._id,
       username,
-      email,
       password,
     };
     if (file) {
@@ -45,7 +43,6 @@ export default function Settings() {
       <div className="settingsWrapper">
         <div className="settingsTitle">
           <span className="settingsUpdateTitle">Update Your Account</span>
-          <span className="settingsDeleteTitle">Delete Account</span>
         </div>
         <form className="settingsForm" onSubmit={handleSubmit}>
           <label>Profile Picture</label>
@@ -69,12 +66,6 @@ export default function Settings() {
             type="text"
             placeholder={user.username}
             onChange={(e) => setUsername(e.target.value)}
-          />
-          <label>Email</label>
-          <input
-            type="email"
-            placeholder={user.email}
-            onChange={(e) => setEmail(e.target.value)}
           />
           <label>Password</label>
           <input
