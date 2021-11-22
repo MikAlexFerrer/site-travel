@@ -6,7 +6,33 @@ router.post("/", async (req, res) => {
   const newHotel = new Hotel(req.body);
   try {
     const savedHotel = await newHotel.save();
+    console.log(savedHotel)
     res.status(200).json(savedHotel);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+//UPDATE HOTEL RESERVATION
+router.put("/:id", async (req, res) => {
+  try {
+    const hotel = await Hotel.findById(req.params.id);
+    if (hotel.username === req.body.username) {
+      try {
+        const updatedHotel = await Hotel.findByIdAndUpdate(
+          req.params.id,
+          {
+            $set: req.body,
+          },
+          { new: true }
+        );
+        res.status(200).json(updatedHotel);
+      } catch (err) {
+        res.status(500).json(err);
+      }
+    } else {
+      res.status(401).json("You can update only your post!");
+    }
   } catch (err) {
     res.status(500).json(err);
   }

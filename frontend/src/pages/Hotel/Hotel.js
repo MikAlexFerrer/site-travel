@@ -1,7 +1,6 @@
 
     import React, { useContext, useState } from 'react'
     import axios from "axios";
-    import { Link } from 'react-router-dom';
     import { Context } from "../../context/Context";
     
     export default function Booking(props) {
@@ -91,7 +90,8 @@
                 showPayment: false,
                 bookingMsg: true
             });
-            alert("Login Successfully")
+            console.log(bookingDetails)
+            alert("AHHHHH")
             try {
                 axios.post("/hotels", {
                     hotel: bookingDetails.hotel,
@@ -226,18 +226,6 @@
                                 <button href="#" type="submit" className="btn btn-primary mt-3 btn-block">Confirm Payment</button>
                             </form>
                         </div>
-                    </div>
-    
-                </section>
-    
-                <section className={bookingDetails.bookingMsg ? "d-block" : "d-none"}>
-                    {/* <img src="https://i.ibb.co/sQrBnc9/b60fb214-e35f-4474-957c-6e63120e66f5-200x200.png" alt="" /> */}
-                    <div className="alert alert-success" role="alert">
-                        <h4 className="alert-heading">Booking Done!</h4>
-                        <p>Thank you for your booking and that you have chosen our hotel.  Your five-digit booking number from Hotel {props.state.hotel.name} is: xxxxx We have received your reservation. </p>
-                        <hr />
-                        <p className="mb-0">Please note that you can make changes or cancellations of your booking. This request should be solely communicated in writing an Email to webmasters69@gmail.com</p>
-                        <Link to="/home"><p className="alert-link">Go to Home</p></Link>
                     </div>
                 </section>
             </div>
