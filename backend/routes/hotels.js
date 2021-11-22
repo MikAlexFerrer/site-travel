@@ -4,6 +4,7 @@ const Hotel = require("../models/Hotel");
 //CREATE HOTEL RESERVATION
 router.post("/", async (req, res) => {
   const newHotel = new Hotel(req.body);
+  console.log(newHotel)
   try {
     const savedHotel = await newHotel.save();
     console.log(savedHotel)

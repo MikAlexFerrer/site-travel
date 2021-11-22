@@ -83,7 +83,7 @@
             });
         }
     
-        const confirmPayment = () => {
+        const confirmPayment = async (e) => {
             updateDetails({
                 ...bookingDetails,
                 dbooking: false,
@@ -91,9 +91,9 @@
                 bookingMsg: true
             });
             console.log(bookingDetails)
-            alert("AHHHHH")
+            e.preventDefault();
             try {
-                axios.post("/hotels", {
+                const res = await axios.post("/hotels", {
                     hotel: bookingDetails.hotel,
                     address: bookingDetails.address,
                     username: bookingDetails.username,
@@ -103,8 +103,10 @@
                     adults: bookingDetails.adults,
                     children: bookingDetails.childs
                 });
+                res.data && window.location.replace("/");
             } catch (err) {}
         }
+
     
         return (
             <div>
