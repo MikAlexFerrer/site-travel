@@ -1,0 +1,115 @@
+.dashboard-sections{
+    margin-top: 0;
+  }
+  .section-1-container {
+  margin: 35px 15% 5% 15%;
+  }
+  
+  .contact-1-content {
+  width: 200px;
+  height: 200px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-radius: 10%;
+  }
+  .contact-img-1{
+    background: linear-gradient(rgba(100, 142, 221, 0.2), rgba(69, 154, 211, 0.1)),
+    url("https://visualpharm.com/assets/947/Address-595b40b75ba036ed117d530f.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+       object-fit: cover;
+  }
+  .contact-img-2{
+    background: linear-gradient(rgba(100, 142, 221, 0.2), rgba(69, 154, 211, 0.1)),
+    url("https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/black_webpict08_1484337066-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+       object-fit: cover;
+  }
+  .contact-img-3{
+    background:  linear-gradient(rgba(100, 142, 221, 0.2), rgba(69, 154, 211, 0.1)),
+    url("https://visualpharm.com/assets/650/Email-595b40b85ba036ed117dd0d4.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  
+  .flex-item-2{
+        background: url("https://i.ibb.co/bNm2RSv/a-retro-telephone-on-the-bedside-table-2843400.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        -o-object-fit: cover;
+           object-fit: cover;
+        width: 320px;
+        height: 320px;
+  }
+  .section-2-wrapper-content{
+    width: 40%;
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+  
+  .section-4-content {
+    height: 70vh;
+    width: 50%;
+  }
+  .section-4-img {
+    background: url("https://images.pexels.com/photos/408503/pexels-photo-408503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;  
+    }
+  
+   .para {
+    margin: 5rem;
+  }
+  
+  .justify{
+  text-align: justify;
+  }
+  .header {
+  
+  margin-top: 0;
+  }
+  
+  .headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Arial", serif;
+  color: #444;
+  }
+  
+  .headerTitleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  }
+  
+  .headerImg{
+  width: 100%;
+  height: 450px;
+  margin-top: 0px;
+  object-fit: cover;
+  filter: brightness(60%);
+  }
+  .smallfont{
+    font-size: 22px;
+  }
+  .info{
+      margin-top: 20px;
+      text-align: center;
+      position: relative;
+      left:50px;
+      width:200px;
+  }

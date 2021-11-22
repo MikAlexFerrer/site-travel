@@ -1,0 +1,58 @@
+[
+    {
+        "id": "CUN",
+        "city": "Cancun",
+        "image": "../images/Cancun.jpg",
+        "price": [
+            "6280",
+            "5150",
+            "22500",
+            "38690"
+        ]
+        
+    },
+    {
+        "id": "LAX",
+        "city": "Los Angeles",
+        "image": "../images/Los_Angeles.jpg",
+        "price": [
+            "6070",
+            "4090",
+            "13300",
+            "20990"
+        ]
+    },
+    {
+        "id": "JFK",
+        "city": "New York",
+        "image": "../images/New_York.jpg",
+        "price": [
+            "20540",
+            "3900",
+            "10300",
+            "44120"
+        ]
+    },
+    {
+        "id": "LCY",
+        "city": "London",
+        "image": "../images/London.jpg",
+        "price": [
+            "12800",
+            "11720",
+            "10500",
+            "24120"
+        ]
+    },
+    {
+        "id": "SYD",
+        "city": "Sydney",
+        "image": "../images/Sydney.jpg",
+        "price": [
+            "32780",
+            "26890",
+            "35230",
+            "24000"
+        ]
+    }
+]

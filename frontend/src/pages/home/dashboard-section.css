@@ -1,0 +1,177 @@
+.dashboard-sections {
+  margin-top: 10rem;
+}
+.section-1-container {
+  margin: 35px 15% 5% 15%;
+}
+.bottom {
+  margin-bottom: 100px;
+}
+.sub {
+  position: relative;
+  color: #444;
+  font-size: 36px;
+  margin-top: 50px;
+}
+.section-1-content {
+  width: 45%;
+  height: 400px;
+  margin: 1rem;
+}
+.section-2-content {
+  width: 200px;
+  height: 150px;
+  margin: 1rem;
+}
+.img-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://images.pexels.com/photos/4432246/pexels-photo-4432246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+.img-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://images.pexels.com/photos/1581694/pexels-photo-1581694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+.img-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://images.pexels.com/photos/9424954/pexels-photo-9424954.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+
+.img-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://images.pexels.com/photos/4451501/pexels-photo-4451501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+.img-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://images.pexels.com/photos/995765/pexels-photo-995765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+.hi {
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.hotel1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://www.hiltonhotels.com/assets/img/Hotel%20Images/DoubleTree/L/LAXDTDT/LAXDTDT_mast01_hotelexterior01.jpg");
+  background-size: cover;
+}
+.hotel2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://megustalosangeles.com/wp-content/uploads/2020/03/Millennium_Biltmore_Hotel_Los_Angeles-198394941.jpg");
+  background-size: cover;
+}
+.hotel3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://media-cdn.tripadvisor.com/media/photo-s/02/06/90/40/hyatt-long-beach.jpg");
+  background-size: cover;
+}
+.hotel4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://www.thezhotels.com/media/1646/z-victoria-entrance.jpg?width=1440&height=810&center=0.5,0.5&mode=crop");
+  background-size: cover;
+}
+.hotel5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://res.cloudinary.com/hostelling-internation/image/upload/t_hostel_carousel/v1536589033/sjmzz5qbvfizfr9rzikt.jpg");
+  background-size: cover;
+}
+.hotel6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://www.premierinn.com/content/dam/pi/websites/hotelimages/gb/en/L/LONCOU/LONCOU%202.jpg");
+  background-size: cover;
+}
+.hotel7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://media-cdn.tripadvisor.com/media/photo-s/1c/df/0c/6a/exterior.jpg");
+  background-size: cover;
+}
+.hotel8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/19/53/1953447_v7.jpeg");
+  background-size: cover;
+}
+.hotel9 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://foodandtravel.mx/wp-content/uploads/2019/11/MayanMonkeyPor.jpg");
+  background-size: cover;
+}
+.hotel10 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://cf.bstatic.com/xdata/images/hotel/max1024x768/13011414.jpg?k=b4a7abf7571240c023c7e503b3353f34f138dba78c3440748c574d7f5204d536&o=&hp=1");
+  background-size: cover;
+}
+.hotel11 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://media-cdn.tripadvisor.com/media/photo-s/1c/de/e5/51/welcome-to-the-world.jpg");
+  background-size: cover;
+}
+.hotel12 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/a7/0f/1f/img-20190728-203959-largejpg.jpg?w=900&h=-1&s=1");
+  background-size: cover;
+}
+.hotel13 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://media.dertouristik.com/exports/KuoniUK/ImageGalleryLightboxLarge/396262_ImageGalleryLightboxLarge.jpg");
+  background-size: cover;
+}
+.hotel14 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://foto.hrsstatic.com/fotos/0/3/545/350/80/000000/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2F3%2F8%2F3%2F4%2F383432%2F383432_a_7759455.jpg/gv%2BdpRRFK7bktWPw%2BIXJSg%3D%3D/1024,875/6/View_Sydney_formerly_North_Sydney_Harbourview-Sydney-Aussenansicht-3-383432.jpg");
+  background-size: cover;
+}
+.hotel15 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("https://media-cdn.tripadvisor.com/media/photo-s/07/48/c8/5a/wake-up-sydney.jpg");
+  background-size: cover;
+}
+
+.flex-item-2 {
+  background: url("https://i.ibb.co/bNm2RSv/a-retro-telephone-on-the-bedside-table-2843400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 320px;
+  height: 320px;
+}
+.section-2-wrapper-content {
+  width: 40%;
+  padding: 2rem;
+  margin: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-1-container {
+    margin: 1rem;
+  }
+  .section-1-content {
+    width: 90%;
+    height: 250px;
+  }
+  .section-2-main {
+    flex-direction: column;
+    margin: 0;
+  }
+  .section-2-wrapper {
+    flex-direction: column;
+  }
+  .flex-item-2 {
+    width: 100%;
+    height: 220px;
+  }
+  .section-2-wrapper-content {
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+}
