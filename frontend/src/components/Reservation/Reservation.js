@@ -3,7 +3,8 @@ import Card from "react-bootstrap/Card";
 import Row from 'react-bootstrap/Row'
 import ListGroup from 'react-bootstrap/ListGroup'
 
-export default function Reservation({ reservation }) {
+export default function Reservation({reservation}) {
+
   return (
     <div className="post">
       <Row xs={1} md={2} className="g-4">

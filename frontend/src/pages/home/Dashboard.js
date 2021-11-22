@@ -1,6 +1,8 @@
 import React from 'react'
 import "./dashboard-section.css"
 
+
+
 function Dashboard() {
     return (
         <>
@@ -55,6 +57,7 @@ function Dashboard() {
                     </div>
                 </div>
             </section>
+            
         </>
     );
 }
