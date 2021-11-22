@@ -52,7 +52,7 @@ export default function TopBar() {
               <ul className="topList">
                 <li className="topListItem">
                   <Nav.Link className="link" href="/login">
-                    LOGIN
+                    LOG IN
                   </Nav.Link>
                 </li>
                 <li className="topListItem">
