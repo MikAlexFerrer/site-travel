@@ -8,7 +8,6 @@ import { useLocation } from "react-router";
 export default function Saved() {
     const [reservations, setPosts] = useState([]);
     const { search } = useLocation();
-
     useEffect(() => {
         const fetchReservations = async () => {
           const res = await axios.get("/hotels" + search);

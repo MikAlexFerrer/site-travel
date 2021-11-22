@@ -91,7 +91,7 @@
                 showPayment: false,
                 bookingMsg: true
             });
-            console.log("AHHHHH")
+            alert("Login Successfully")
             try {
                 axios.post("/hotels", {
                     hotel: bookingDetails.hotel,

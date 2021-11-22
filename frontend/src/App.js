@@ -1,6 +1,6 @@
 import Home from "./pages/home/Home";
 import TopBar from "./components/Topbar/Topbar";
-import Reservations from "./pages/reservations/Reservations";
+import Saved from "./pages/reservations/Reservations";
 import HotelFilter from "./pages/hotels/Hotels";
 import { RoomView } from './pages/Hotel/RoomView';
 import About from "./pages/about/About";
@@ -29,7 +29,7 @@ function App() {
         <Route path="/hotel/:id">{user ? <RoomView /> : <Login />}</Route>
         <Route path="/about"><About /></Route>
         <Route path="/contact"><Contact /></Route>
-        <Route path="/reservations">{user ? <Reservations /> : <Login />}</Route>
+        <Route path="/reservations">{user ? <Saved /> : <Login />}</Route>
         <Route path="/settings">{user ? <Settings /> : <Login />}</Route>
       </Switch>
     </Router>

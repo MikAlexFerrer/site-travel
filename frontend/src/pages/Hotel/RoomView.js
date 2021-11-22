@@ -10,7 +10,7 @@ export function HotelView() {
     
     return (
         <div className="carousel-box">
-            <Carousel interval="1500">
+            <Carousel interval="3000">
                 <Carousel.Item>
                     <div className="box">
                         <img
