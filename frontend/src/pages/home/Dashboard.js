@@ -12,7 +12,7 @@ function Dashboard() {
                  </div>
             </div>
             <section className="dashboard-sections">
-                <div className="section-1-container mt-5">
+                <div className="section-1-container">
                 <h1 className="text-center">Our Destinations</h1>
                     <div className="wrapper d-flex justify-content-center flex-wrap">
                         <div className="section-1-content img-1">
