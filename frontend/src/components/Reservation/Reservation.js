@@ -9,8 +9,7 @@ import { Context } from "../../context/Context";
 export default function Reservation({reservation}) {
   const { user } = useContext(Context);
 
-  const handleDelete = async (e) => {
-    e.preventDefault();
+  const handleDelete = async (event) => {
     alert("Succesfully Deleted!")
     try {
       await axios.delete(`/hotels/${reservation._id}`, {
