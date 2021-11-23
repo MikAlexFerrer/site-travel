@@ -1,6 +1,6 @@
 import React from 'react'
 import "./dashboard-section.css"
-import DataFetching from "./DataFetching";
+import DataFetching from "../../components/DataFetching/DataFetching";
 
 
 

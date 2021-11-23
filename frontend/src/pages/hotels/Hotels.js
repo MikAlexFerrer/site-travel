@@ -64,7 +64,7 @@ export default function HotelFilter() {
                             return (
                             <Card key={index} style={{ "width": "14.58rem", "margin": "2% 1% 1% 1%"}}>
                                 <Card.Img variant="top" src={Cities[index].image} height="200"/>
-                                <Card.Body>
+                                <Card.Body className = "btn" >
                                     <Card.Subtitle value={hotel.city} onClick={handleChange}>{hotel.city.toUpperCase()}</Card.Subtitle>
                                 </Card.Body>
                             </Card>)
