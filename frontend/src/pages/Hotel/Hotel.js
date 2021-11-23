@@ -91,6 +91,7 @@
                 bookingMsg: true
             });
             console.log(bookingDetails)
+            alert("Booking Succesful!")
             e.preventDefault();
             try {
                 const res = await axios.post("/hotels", {
