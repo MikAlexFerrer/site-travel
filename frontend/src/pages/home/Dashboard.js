@@ -1,5 +1,6 @@
 import React from 'react'
 import "./dashboard-section.css"
+import DataFetching from "./DataFetching";
 
 
 
@@ -56,8 +57,10 @@ function Dashboard() {
                         <div className="section-2-content hotel15 hi"></div>
                     </div>
                 </div>
+                <div>
+                    <DataFetching/>
+                </div>
             </section>
-            
         </>
     );
 }
